@@ -13,13 +13,14 @@ import { MatSelectModule } from '@angular/material/select';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { HComponent } from './components/h/h.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HComponent
+
+    TabsComponent
   ],
   imports: [
     BrowserModule,
